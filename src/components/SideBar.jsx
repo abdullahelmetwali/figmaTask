@@ -1,9 +1,9 @@
-import Delete from '/public/icons/delete.svg'
-import Edit from '/public/icons/edit.svg'
-import Applicants from '/public/icons/applicants.svg'
-import Matches from '/public/icons/matches.svg'
-import Messages from '/public/icons/messages.svg'
-import Views from '/public/icons/views.svg'
+import Delete from '/icons/delete.svg'
+import Edit from '/icons/edit.svg'
+import Applicants from '/icons/applicants.svg'
+import Matches from '/icons/matches.svg'
+import Messages from '/icons/messages.svg'
+import Views from '/icons/views.svg'
 const SideBar = () => {
     const sideBarData = [
         {

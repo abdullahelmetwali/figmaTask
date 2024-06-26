@@ -4,11 +4,11 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
-import Bell from '/public/icons/bell.svg'
-import Travel from '/public/icons/travel.svg'
-import MessagesSvg from "../public/icons/messages.svg";
-import PaymentSvg from '../public/icons/payments.svg'
-import Chevron from '../public/icons/chevron.svg'
+import Bell from '/icons/bell.svg'
+import Travel from '/icons/travel.svg'
+import MessagesSvg from "/icons/messages.svg";
+import PaymentSvg from '/icons/payments.svg'
+import Chevron from '/icons/chevron.svg'
 import Jobs from "./views/Jobs";
 import Messages from "./views/Messages";
 import Payments from "./views/Payments";
@@ -40,7 +40,7 @@ const App = () => {
             <span className="orangeBullet"></span>
           <img src={Bell} alt="notification" className="" />
           </span>
-        <img src="/public/imgs/Logo.png" alt="logo" className="w-[1.7rem] h-auto mb-1" />
+        <img src="/imgs/Logo.png" alt="logo" className="w-[1.7rem] h-auto mb-1" />
         <img src={Chevron} className=" cursor-pointer mb-1"/>
         </div>
       </nav>

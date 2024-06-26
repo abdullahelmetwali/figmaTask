@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import LocationSvg from '/public/icons/location.svg'
-import Money from '/public/icons/money.svg'
+import LocationSvg from '/icons/location.svg'
+import Money from '/icons/money.svg'
 const JobHeader = ({ recruiterJobPost }) => {
     return (
         <header className="makeShadow px-10 pt-6 pb-4">

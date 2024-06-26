@@ -41,15 +41,15 @@ const Jobs = () => {
     jobExperience : 3,
     skillsRequired: [
       {
-        skillImg: "../../public/imgs/figma.png",
+        skillImg: "/imgs/figma.png",
         skillName: "Figma",
       },
       {
-        skillImg: "../../public/imgs/AdobeIII.png",
+        skillImg: "/imgs/AdobeIII.png",
         skillName: "Adobe Illustrator",
       },
       {
-        skillImg: "../../public/imgs/AdobeXd.png",
+        skillImg: "/imgs/AdobeXd.png",
         skillName: "Adobe XD",
       },
     ],
@@ -69,7 +69,7 @@ const Jobs = () => {
     },
     })
     setCompanyData({
-      companyLogo : '../../public/imgs/companyLogo.png',
+      companyLogo : '/imgs/companyLogo.png',
       companyName : 'Atlassian',
       companySize : [1,2],
       companySector : ['Information Technology','Infrastructure'],
